@@ -10,4 +10,6 @@ This file breaks down some of the ECDSA methods and signatures to help better ex
 
 The current state of this program allows signing of messages/data, and recovering public keys from signatures (with know curves)
 
-Future features will build in provate key recovery from insecure implementations of ECDSA that do re-use k. 
+Future features will build in private key recovery from insecure implementations of ECDSA that do re-use k. 
+
+The Python implementation of privatekey recovery can be seen here: https://bitcoin.stackexchange.com/questions/35848/recovering-private-key-when-someone-uses-the-same-k-twice-in-ecdsa-signatures
