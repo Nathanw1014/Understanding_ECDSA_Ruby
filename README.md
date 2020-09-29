@@ -2,7 +2,7 @@
 
 ##
 
-This progam was built based around the ECDSA Ruby Library. 
+This progam was built based around the Ruby ECDSA Library., Ruby was used because of this library.
 
 It uses an insecure implementation of k when signing ECDSA signatures. This should **NEVER** be done in production (just ask Sony..).
 
